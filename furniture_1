@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="productstyling.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <!-- bootstrap link -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <h1>Comfy@<span>Home</span></h1>
+        </div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#shop">FURNITURE</a></li>
+            <li><a href="#arrival">HOMEWARE</a></li>
+            <li><a href="#sale" style="color: red;">SALE</a></li>
+
+            
+
+        </ul>
+        <ul class="nav-icons">
+            <li><i class="ri-contacts-book-line"></i></li>
+            <li><i class="ri-heart-line"></i></li>
+            <li><i class="ri-user-fill"></i></li>
+            <li><i class="ri-shopping-cart-2-fill"></i></li>
+        </ul>
+        <i id="bar" class="fa-solid fa-bars"></i>
+    </nav>
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/wooden_touch_1.jpg" width="100%" id="ProductImg">
+                <div class="small-img-row">
+
+                    <div class="small-img-col">
+                        <img src="images/wooden_touch_1.1.jpg" width="100%" class="small-img">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="images/wooden_touch_1.2.jpg" width="100%" class="small-img">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="images/wooden_touch_1.3.jpg" width="100%" class="small-img">
+                    </div>
+
+                    <div class="small-img-col">
+                        <img src="images/wooden_touch_1.4.jpg" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+
+                <div class="col-2">
+                    <p>Home/Furniture</p>
+                    <h1>Furniture</h1>
+                    <h4>R4500</h4>
+                    <!-- <select>
+                        <option>Select size</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select> -->
+                    <input type="number" value="1">
+                    <a href="" class="btn">Add to Cart</a>
+                    <a href="" class="btn">Add to Wishlist</a>
+                    <h3>Product Details <i class="fa fa-indent"></i></h3>
+                    <br>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Doloremque placeat quisquam delectus aut sed nesciunt suscipit ut accusantium.
+                        Expedita itaque possimus autem quisquam libero enim neque voluptatum cupiditate et obcaecati?</p>
+                </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- furniture -->
+    <section class="shop">
+        <div id="shop">
+            <div class="head">
+                <h1>FURNITURE</h1>
+            </div>
+            <div class="shops">
+                <div class="card">
+                    <img src="images/shop.jpg" alt="">
+                    <p>Luxury Sofa's</p>
+                    <p>R999</p>
+                    <p>Feel Comfort</p>
+
+                </div>
+                <div class="card">
+                    <img src="images/shop.jpg" alt="">
+                    <p>Luxury Sofa's</p>
+                    <p>R999</p>
+                    <p>Feel Comfort</p>
+
+                </div>
+                <div class="card">
+                    <img src="images/shop.jpg" alt="">
+                    <p>Luxury Sofa's</p>
+                    <p>R999</p>
+                    <p>Feel Comfort</p>
+
+                </div>
+                <div class="card">
+                    <img src="images/shop.jpg" alt="">
+                    <p>Luxury Sofa's</p>
+                    <p>R999</p>
+                    <p>Feel Comfort</p>
+
+                </div>
+                <div class="card">
+                    <img src="images/shop.jpg" alt="">
+                    <p>Luxury Sofa's</p>
+                    <p>R999</p>
+                    <p>Feel Comfort</p>
+
+                </div>
+                <div class="card">
+                    <img src="images/shop.jpg" alt="">
+                    <p>Luxury Sofa's</p>
+                    <p>R999</p>
+                    <p>Feel Comfort</p>
+
+                </div>
+
+                <div class="card">
+                    <img src="images/shop.jpg" alt="">
+                    <p>Luxury Sofa's</p>
+                    <p>R999</p>
+                    <p>Feel Comfort</p>
+
+                </div>
+
+                <div class="card">
+                    <img src="images/shop.jpg" alt="">
+                    <p>Luxury Sofa's</p>
+                    <p>R999</p>
+                    <p>Feel Comfort</p>
+
+                </div>
+            </div>
+        </div>
+        </section>
+
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = Document.getElementByClassName("small-img");
+
+        SmallImg[0].onclick = fumction()
+        {
+            ProductImg.src = SmallImg[0].src;
+        }
+
+        SmallImg[1].onclick = fumction()
+        {
+            ProductImg.src = SmallImg[1].src;
+        }
+
+        SmallImg[2].onclick = fumction()
+        {
+            ProductImg.src = SmallImg[2].src;
+        }
+
+        SmallImg[3].onclick = fumction()
+        {
+            ProductImg.src = SmallImg[3].src;
+        }
+    </script>
+
+</body>
+</html>
